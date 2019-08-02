@@ -1,0 +1,11 @@
+{
+  "Items": [
+    {
+      "Analyzer": "LongMethodAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "YAROSLAV"
+    }
+  ]
+}

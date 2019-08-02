@@ -1,0 +1,21 @@
+﻿<Window x:Class="ShingleAlgorithm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShingleAlgorithm"
+        mc:Ignorable="d"
+        Title="Shingle Algorithm" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Lbl1" Content="Text 1 :" HorizontalAlignment="Left" Height="30" Margin="66,39,0,0" VerticalAlignment="Top" Width="45" RenderTransformOrigin="1.04,0.373"/>
+        <Label x:Name="Lbl2" Content="Text 2 :" HorizontalAlignment="Left" Margin="66,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.146,1.004" Height="30" Width="45"/>
+        <TextBox x:Name="Tb1" HorizontalAlignment="Left" Height="25" Margin="111,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="435" TextAlignment="Center" TextOptions.TextHintingMode="Animated"/>
+        <TextBox x:Name="Tb2" HorizontalAlignment="Left" Height="25" Margin="111,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="435" TextAlignment="Center"/>
+        <Button x:Name="Btn1" Content="Open text 1" HorizontalAlignment="Left" Margin="582,39,0,0" VerticalAlignment="Top" Width="110" Height="25" Click="Btn1_Click"/>
+        <Button x:Name="Btn2" Content="Open text 2" HorizontalAlignment="Left" Margin="582,100,0,0" VerticalAlignment="Top" Width="110" Height="25" Click="Btn2_Click"/>
+        <Button x:Name="BtnCompare" Content="Compare" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top" Width="100" Height="35" Click="BtnCompare_Click"/>
+        <Label Content="Same : " HorizontalAlignment="Left" Margin="326,285,0,0" VerticalAlignment="Top" Height="30" Width="60" FontSize="16"/>
+        <TextBox x:Name="tbResult" HorizontalAlignment="Left" Height="25" Margin="391,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" TextAlignment="Center"/>
+
+    </Grid>
+</Window>

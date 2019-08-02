@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShingleAlgorithm", "ShingleAlgorithm\ShingleAlgorithm.csproj", "{99FB7012-6185-4315-B1AA-8B55853F5F5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB802F83-E581-4C4B-9B16-7D00D66C9329}"
+ProjectSection(SolutionItems) = preProject
+GCop.json = GCop.json
+EndProjectSection
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FB7012-6185-4315-B1AA-8B55853F5F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FB7012-6185-4315-B1AA-8B55853F5F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FB7012-6185-4315-B1AA-8B55853F5F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FB7012-6185-4315-B1AA-8B55853F5F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4E5DD66-093E-4957-9960-2AE3AEBEB0A0}
+	EndGlobalSection
+EndGlobal
